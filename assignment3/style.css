@@ -1,0 +1,49 @@
+ /* This is my new stylesheet */
+
+ p {
+ color: #ff0000;
+
+}
+
+h1 {
+  color: #FFFFFF;
+  background-color: #80CBB3;
+}
+
+a {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #FFFF00;
+}
+
+.spanstyle {
+  color: #11AA2B;
+}
+
+
+#divexample {
+  color: #000000;
+  background-color: #FFFF00
+}
+
+
+#specialid {
+color: #00FF00;
+ background-color: #000000;
+}
+
+.specialp {
+ color: #FFFFFF;
+ background-color: #0000ff;
+}
+
+h3 {
+  color: #B4027C;
+  background-color: #ECC2F8;
+}
