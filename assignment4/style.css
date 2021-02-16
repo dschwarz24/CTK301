@@ -1,0 +1,80 @@
+ /* This is my new stylesheet */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #FFFFFF;
+  background-image: url(red.jpg);
+  background-position: top center;
+}
+
+ p {
+  color: #ff0000;
+}
+
+h1 {
+  color: #FFFFFF;
+  background-color: #80CBB3;
+}
+
+h1 {
+  font-weight: normal;
+  font-style: italic;
+  color: #FF8C00;
+}
+
+a {
+  color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #FFFF00;
+}
+
+.spanstyle {
+  color: #11AA2B;
+}
+
+.customtext {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgbox {
+  border: 10px solid #000000;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+#divexample {
+  color: #000000;
+  background-color: #FFFF00
+}
+
+
+#specialid {
+color: #00FF00;
+ background-color: #000000;
+}
+
+.specialp {
+ color: #FFFFFF;
+ background-color: #0000ff;
+}
+
+h3 {
+  color: #B4027C;
+  background-color: #ECC2F8;
+}
