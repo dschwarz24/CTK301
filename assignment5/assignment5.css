@@ -1,0 +1,74 @@
+h1 {
+  font-family: Impact, Helvetica, sans-serif;
+    color: #3C8EE0;
+    font-size: 150px;
+     padding-top: 45px;
+     padding-left: 168px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: #3C8EE0;
+}
+  body {
+background-image: url(Soul.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+a {
+  font-weight: bold;
+  color:#3C8EE0;
+  padding-left: 200px;
+  text-align: justify;
+}
+
+a:hover {
+ color:#F49638;
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+.padding {
+  padding-left: 498px;
+  color: #ffffff;
+  line-height: 2px;
+}
+.white {
+ color: #ffffff;
+ margin: 0;
+padding-left: 400px;
+padding-top:20px;
+line-height: 0px;
+display: block;
+
+}
+
+.imgbox {
+    padding-right: 180px;
+    padding-left: 230px;
+    padding-top: 20px;
+    display: block;
+
+
+}
+
+.spanstyle {
+  color: #F49638;
+}
+
+.SPANSTYLE {
+  font-size: 10px;
+}
+
+.textheight {
+line-height: 3px;
+text-align: justify;
+}
+
+.textcenter {
+  color: #3C8EE0;
+  padding-top: 375px;
+  padding-left: 87px;
+  line-height: 3px;
+  text-align: justify;
