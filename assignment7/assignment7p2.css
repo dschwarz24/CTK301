@@ -1,0 +1,58 @@
+
+h2 {
+  width: 860px;
+}
+
+.Luther {
+  border: 3px solid #1646AB;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.Allison {
+  border: 3px solid #1646AB;
+  margin: 20px;
+  margin-top: 0;
+  margin-left: 0px;
+}
+
+.Diego {
+  border: 3px solid #1646AB;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.LAD {
+  margin: 20px;
+  margin-top: 0;
+}
+
+.adademy {
+  float:right;
+  border: 3px solid #1646AB;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.Klaus {
+margin-left: 30px;
+margin-right: 10px;
+
+
+}
+
+.Vanya {
+  margin-left: 30px;
+  margin-top: 30px;
+
+
+}
+
+.P3{
+  margin-left: 10px;
+}
+
+
+#wrapper {
+  width: 935px;
+}

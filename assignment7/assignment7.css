@@ -1,0 +1,169 @@
+
+body {
+background-color: #898484;
+background-position: top center;
+
+margin: 20px;
+}
+
+header {
+
+  grid-column: span 12;
+  background-image: linear-gradient(to bottom, #379be7, #1b81d8, #0967c7, #124db3, #21319d);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #7ACBFA;
+  text-decoration: none;
+  font-family: helvetica, sans-serif;
+  font-style: italic;
+  font-size: 35px;
+  font-weight: normal;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+
+}
+
+h1:hover {
+  color: #ffffff;
+}
+
+h2 {
+  font-family: helvetica, sans-serif;
+  padding-left: 10px;
+  color: #1646AB;
+  font-weight: normal;
+
+}
+
+h2 {
+  border-bottom: 3px solid #1646AB;
+  width: 835px;
+  grid-column: span 12;
+  margin: 20px;
+}
+
+nav li {
+  display: block;
+  color: #ffffff;
+  width: 200px;
+  padding: 12px;
+  padding-left: 20px;
+  background-image: linear-gradient(to bottom, #379be7, #1b81d8, #0967c7, #124db3, #21319d);
+  grid-column: span 12;
+  text-decoration: none;
+  float: left;
+  border-right: 5px solid #1646AB;
+
+  }
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: block;
+
+}
+
+  a {
+    color: #7ACBFA;
+    text-decoration: none;
+    font-family: helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  nav li a:hover {
+  color: #ffffff;
+
+}
+
+nav li:hover {
+  background-image: linear-gradient(to top, #add6f6, #78aee5, #4c86d1, #2b5cba, #21319d);
+
+}
+
+nav {
+border-top: 2px solid #1646AB;
+border-bottom: 2px solid #1646AB;
+grid-column: span 12;
+padding-bottom: 0;
+margin-bottom: 0;
+background-image: linear-gradient(to bottom, #379be7, #1b81d8, #0967c7, #124db3, #21319d);
+display: block;
+}
+
+
+main {
+  border-bottom: 2px solid #1646AB;
+  border-top: 2px solid #1646AB;
+  grid-column: span 12;
+
+}
+
+footer {
+  border-top: 2px solid #1646AB;
+  background-color: #ff0000;
+  grid-column: span 12;
+  margin: 0;
+  padding: 0;
+}
+
+.floatimage {
+  padding: 15px;
+}
+
+.spanstyle {
+  font-weight: bold;
+  color: #DF0B0B;
+}
+
+.Hargreeves{
+  margin-left: 20px;
+  border: 3px solid #1646AB;
+  float: left;
+}
+
+.HargreevesHouse {
+  width: 420px;
+  padding-left: 430px;
+  margin-left: 20px
+}
+
+.NumberFive {
+
+  padding-left: 20px;
+  width: 830px;
+  padding-top: 10px;
+
+}
+
+.P3 {
+padding-left: 20px;
+width: 835px;
+padding-top: 10px;
+
+}
+
+.Welcome {
+  font-weight: bold;
+  margin: 20px;
+  width: 800px;
+  font-size: 17px;
+  text-align: justify;
+
+}
+
+
+#wrapper {
+  margin: 1em auto;
+  width: 900px;
+  border: 5px solid #1646AB;
+  background-color: #ffffff;
+  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
