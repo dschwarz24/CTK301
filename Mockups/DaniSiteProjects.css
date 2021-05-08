@@ -1,0 +1,184 @@
+body {
+  background-color: #ffffff;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  height: 1200px;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+
+header {
+  grid-column: span 12;
+  background-color: #A5EBFF;
+  color: black;
+  font-family: Courier, Helvetica, Arial;
+  padding-left: 24px;
+  font-size: 24px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h1 {
+
+  text-shadow: 4px 4px 0px #fff; /* x, y, blur, color */
+  font-family: 'Kiwi Maru', serif;
+}
+
+
+
+
+img {
+  grid-column: span 4;
+  padding-top: 20px;
+  width: 410px;
+  height: 190px;
+  padding-right: 0px;
+
+}
+
+
+.sculptureimg {
+  width: 370px;
+  height: 250px;
+  border: 2px solid;
+  padding: 0px;
+  grid-column: span 12;
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+
+  .projectimg {
+    width: 370px;
+    height: 250px;
+    border: 2px solid;
+    padding: 0px;
+    grid-column: span 12;
+
+    margin-left: 20px;
+    margin-top: 15px;
+
+  }
+
+
+
+
+.blueimg2 {
+ width: 416px;
+ padding-right: 0px;
+
+}
+
+.img1 {
+  width: 385px;
+  padding-right: 20px;
+}
+
+nav {
+  grid-column: span 12;
+  margin-top: 26px;
+
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav li {
+
+ margin-bottom: 4px;
+ border: 1px solid #000000;
+ width: 370px;
+ display: inline-block;
+ margin-top: 0px;
+ margin-right: 24px;
+ margin-bottom: 0px;
+
+
+}
+
+nav li a {
+ display: block;
+ background-color: #A5EBFF;
+ color: black;
+ border: 10px;
+ font-family: Courier, Helvetica, Arial;
+ font-weight: bold;
+text-decoration: none;
+font-size: 30px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+transition: background-color 0.5s;
+}
+
+nav li a:hover {
+
+  background-color: #1591C9;
+  color: white;
+}
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+
+section {
+  grid-column: span 6;
+   grid-template-rows: 1fr 1fr;
+  font-family: Courier, Helvetica, Arial;
+  font-size: 30px;
+
+}
+
+#example {
+  grid-column: span 12;
+}
+
+.dropshadowbox {
+  padding: 15px;
+  width: 1180px;
+  height: 200px;
+  margin-top: 50px;
+  float: right;
+  background-image: linear-gradient(to right top, #cee1fb, #acb6c9, #898d9a, #66666d, #434343);
+  font-size: 20px;
+  transition: background-color 3s;
+
+
+}
+
+
+.dropshadowbox:hover {
+  background: #1a0d00;
+  color: white
+
+}
+
+
+footer {
+  grid-column: span 12;
+  font-size: 24px;
+  background-color: #A5EBFF;
+  color: black;
+  font-style: italic;
+  padding-left: 300px;
+  margin-top: 30px;
+}
